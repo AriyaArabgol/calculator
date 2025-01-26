@@ -157,6 +157,7 @@
     font-size: 40px;
     cursor: pointer;
     background-color: #09df74;
+    color: beige;
     
 
 }
