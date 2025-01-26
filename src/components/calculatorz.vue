@@ -41,7 +41,7 @@
         },
         computed: {
     limitedCurrent() {
-      return this.current ? this.current.substring(0, 16) : '0';
+      return this.current ? this.current.substring(0, 20) : '0';
     },
     },
         methods:{
@@ -174,9 +174,11 @@
 .clear{
     grid-column: 1/3;
     background-color: rgb(223, 3, 3);
+    color: white;
 }
 .remove{
     grid-column: 3/5;
     background-color: blue;
+    color: white;
 }
 </style>
